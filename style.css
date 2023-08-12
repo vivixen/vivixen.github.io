@@ -34,7 +34,8 @@ body {
 }
 
 .hero {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./Images/hero-background.jpg');
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./Images/motocross.png');
+    background-position: center;
     background-size: cover;
     color: #fff;
     text-align: center;

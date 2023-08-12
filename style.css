@@ -1,0 +1,171 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    max-width: 80px;
+}
+
+.nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: #666;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #222;
+}
+
+.hero {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./Images/hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    opacity: 0.8;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 0;
+}
+
+.feature {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 300px;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature-title {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.feature-description {
+    font-size: 16px;
+    color: #777;
+    line-height: 1.6;
+}
+
+.about {
+    text-align: center;
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.about-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.about-description {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+.contact {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+    color: #666;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+.contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-email a {
+    color: #ff9900;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-email a:hover {
+    color: #222;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.company-name {
+    margin-left: 10px;
+}
+
+.company-name h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
